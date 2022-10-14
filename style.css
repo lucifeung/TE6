@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|DM+Serif+Display|Domine|Galada|Nunito|Pacifico&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #81092f;
+  font-size: 3em;
+  font-family: 'DM Serif Display', serif;
+  text-shadow: -1px 1px 2px white,
+				  1px 1px 2px white,
+				  1px -1px 0 white,
+				  -1px -1px 0 white;
+}
+
+p {
+  text-align: center;
+  font-family: 'Domine', serif;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #81092f;
+  text-shadow:
+				  1px 1px 2px white,
+				  -1px -1px 0 white;
+}
